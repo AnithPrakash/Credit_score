@@ -1,8 +1,8 @@
 import pickle
 import streamlit as st
 
-model=(open("D:/DATA SCIENCE/PROJECTS DONE BY ME/P2/models.sav"))
-model1=pickle.loads(open(model,'rb'))
+model=models.sav"
+model1=pickle.load(open(model,'rb'))
 
 st.title("Predict your Credit Score")
 
@@ -71,4 +71,4 @@ if st.button("Result"):
         print("your credit score is standard")
     else:
         print("your credit score is low")
-st.success(pred)
+st.success(credit_score)
