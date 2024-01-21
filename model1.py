@@ -32,7 +32,7 @@ with col2:
     Num_of_Delayed_Payment=st.text_input("Enter your No of Delayed Payment")
 
 with col3:
-    Changed_Credit_Limit=st.text_input("Enter your Changed Credit Limit")
+    Changed_Credit_Limit=st.text_input("Enter Changed Credit Limit")
 
 with col4:
     Num_Credit_Inquiries=st.text_input("Enter your No Credit Inquiries")
