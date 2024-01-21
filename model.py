@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-model=(open("D:/DATA SCIENCE/PROJECTS DONE BY ME/P2/models.sav"))
+model="models.sav"
 model1=pickle.loads(open(model,'rb'))
 
 st.title("Predict your Credit Score")
