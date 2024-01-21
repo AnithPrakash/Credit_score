@@ -26,40 +26,40 @@ with col6:
     num_loan=st.text_input("Enter your number of loan")
 
 with col1:
-    type_loan=st.text_input("enter your Type of loan ( specify how in number )")
+    type_loan=st.text_input("Number of loan \n you have")
 
 with col2:
-    Num_of_Delayed_Payment=st.text_input("Enter your Num_of_Delayed_Payment")
+    Num_of_Delayed_Payment=st.text_input("Enter your No of Delayed Payment")
 
 with col3:
-    Changed_Credit_Limit=st.text_input("enter your Changed_Credit_Limit")
+    Changed_Credit_Limit=st.text_input("Enter your Changed Credit Limit")
 
 with col4:
-    Num_Credit_Inquiries=st.text_input("Enter your Num_Credit_Inquiries")
+    Num_Credit_Inquiries=st.text_input("Enter your No Credit Inquiries")
 
 with col5:
-    credit_mix=st.text_input("Enter your credit mix")
+    credit_mix=st.text_input("Enter your Credit mix")
 
 with col6:
-    Outstanding_Debt=st.text_input("Enter your Outstanding_Debt")
+    Outstanding_Debt=st.text_input("Enter your Outstanding Debt")
 
 with col1:
-    Credit_Utilization_Ratio=st.text_input("Enter your Credit_Utilization_Ratio")
+    Credit_Utilization_Ratio=st.text_input("Enter your Credit Utilization Ratio")
 
 with col2:
-    Payment_of_Min_Amount=st.text_input("enter your Payment_of_Min_Amount")
+    Payment_of_Min_Amount=st.text_input("Enter your Payment Min Amount")
 
 with col3:
-    Total_EMI_per_month=st.text_input("enter your Total_EMI_per_month")
+    Total_EMI_per_month=st.text_input("Enter your Total EMI per month")
 
 with col4:
-    Amount_invested_monthly=st.text_input("Enter your Amount_invested_monthly")
+    Amount_invested_monthly=st.text_input("Enter your Amount invested monthly")
 
 with col5:
-    Payment_Behaviour=st.text_input("Enter your Payment_Behaviour")
+    Payment_Behaviour=st.text_input("Enter your Payment Behaviour")
 
 with col6:
-    Monthly_Balance=st.text_input("Enter your Monthly_Balance")
+    Monthly_Balance=st.text_input("Enter your Monthly Balance")
 
 credit_score=""
 if st.button("Result"):
