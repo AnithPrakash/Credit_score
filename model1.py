@@ -44,13 +44,13 @@ with col6:
     Outstanding_Debt=st.text_input("Enter your Outstanding Debt")
 
 with col1:
-    Credit_Utilization_Ratio=st.text_input("Enter your Credit Utilization Ratio")
+    Credit_Utilization_Ratio=st.text_input("Enter your Credit Utilization Ratio ( type in float )")
 
 with col2:
     Payment_of_Min_Amount=st.text_input("Enter your Payment Min Amount")
 
 with col3:
-    Total_EMI_per_month=st.text_input("Enter your Total EMI per month")
+    Total_EMI_per_month=st.text_input("Enter your Total EMI amount per month")
 
 with col4:
     Amount_invested_monthly=st.text_input("Enter your Amount invested monthly")
@@ -59,7 +59,7 @@ with col5:
     Payment_Behaviour=st.text_input("Enter your Payment Behaviour")
 
 with col6:
-    Monthly_Balance=st.text_input("Enter your Monthly Balance")
+    Monthly_Balance=st.text_input("Enter your Monthly Balance in your bank ")
 
 credit_score=""
 if st.button("Result"):
