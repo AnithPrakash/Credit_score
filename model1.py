@@ -14,16 +14,16 @@ with col2:
     Annual_Income=st.text_input("Enter your Annual income")
 
 with col3:
-    N_Bank_acc=st.text_input("Enter number of Bank account you have")
+    N_Bank_acc=st.text_input("Enter number of Bank account ")
 
 with col4:
-    N_credit_card=st.text_input("Enter the number of credit card")
+    N_credit_card=st.text_input("Enter Number of credit card")
 
 with col5:
     Interest=st.text_input("Enter your interest Rate ")
 
 with col6:
-    num_loan=st.text_input("enter your number of loan")
+    num_loan=st.text_input("Enter your number of loan")
 
 with col1:
     type_loan=st.text_input("enter your Type of loan ( specify how in number )")
