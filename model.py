@@ -14,7 +14,7 @@ with col2:
     Annual_Income=st.text_input("Enter your Annual income")
 
 with col3:
-    N_Bank_acc=st.text("Enter number of Bank account you have")
+    N_Bank_acc=st.text_input("Enter number of Bank account you have")
 
 with col4:
     N_credit_card=st.text_input("Enter the number of credit card")
