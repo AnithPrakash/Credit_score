@@ -64,7 +64,7 @@ with col6:
 credit_score=" "
 if st.button("Result"):
     pred=model1.predict(
-        [[ID,Annual_Income,N_Bank_Acc,N_credit_card,Interest,num_Loan,type_loan,Num_of_Delayed_Payment,Changed_Credit_Limit,Num_Credit_Inquiries,credit_mix,Outstanding_Debt,Credit_Utilization_Ratio,Payment_of_Min_Amount,Total_EMI_per_month,Amount_invested_monthly,Payment_Behaviour,Monthly_Balance]])
+        [[ID,Annual_Income,N_Bank_acc,N_credit_card,Interest,num_Loan,type_loan,Num_of_Delayed_Payment,Changed_Credit_Limit,Num_Credit_Inquiries,credit_mix,Outstanding_Debt,Credit_Utilization_Ratio,Payment_of_Min_Amount,Total_EMI_per_month,Amount_invested_monthly,Payment_Behaviour,Monthly_Balance]])
     if pred[0]==0:
         print("your credit score is good")
     elif pred[1]==1:
