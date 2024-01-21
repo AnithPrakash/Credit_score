@@ -61,7 +61,7 @@ with col5:
 with col6:
     Monthly_Balance=st.text_input("Enter your Monthly_Balance")
 
-credit_score=""
+credit_score=" "
 if st.button("Result"):
     pred=model1.predict(
         [[ID,Annual_Income,Num_Bank_Accounts,Num_Credit_Card,Interest_Rate,Num_of_Loan,Type_of_Loan,Num_of_Delayed_Payment,Changed_Credit_Limit,Num_Credit_Inquiries,Credit_Mix,Outstanding_Debt,Credit_Utilization_Ratio,Payment_of_Min_Amount,Total_EMI_per_month,Amount_invested_monthly,Payment_Behaviour,Monthly_Balance]])
@@ -71,4 +71,4 @@ if st.button("Result"):
         print("your credit score is standard")
     else:
         print("your credit score is low")
-st.success(pred)
+st.success(credit_score)
